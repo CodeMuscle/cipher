@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1701288909282,
+      "tag": "0000_tough_jean_grey",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1701292373294,
+      "tag": "0001_keen_maelstrom",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1701717450228,
+      "tag": "0002_loud_hemingway",
+      "breakpoints": true
+    }
+  ]
+}
