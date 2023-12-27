@@ -114,13 +114,25 @@ export const PRICING_CARDS = [
   {
     planType: 'Free Plan',
     price: '0',
-    description: 'Limited block trials  for teams',
+    description: 'Limited block trials for teams',
     highlightFeature: '',
     features: [
-      'Unlimited blocks for teams',
-      'Unlimited file uploads',
-      '30 day page history',
-      'Invite 2 guests',
+      {
+        id: 1,
+        content: 'Unlimited blocks for teams',
+      },
+      {
+        id: 2,
+        content: 'Unlimited file uploads',
+      },
+      {
+        id: 3,
+        content: '30 day page history',
+      },
+      {
+        id: 4,
+        content: 'Invite 2 guests',
+      },
     ],
   },
   {
@@ -129,10 +141,22 @@ export const PRICING_CARDS = [
     description: 'Billed annually. $17 billed monthly',
     highlightFeature: 'Everything in free +',
     features: [
-      'Unlimited blocks for teams',
-      'Unlimited file uploads',
-      '1 year day page history',
-      'Invite 10 guests',
+      {
+        id: 1,
+        content: 'Unlimited blocks for teams',
+      },
+      {
+        id: 2,
+        content: 'Unlimited file uploads',
+      },
+      {
+        id: 3,
+        content: '1 year day page history',
+      },
+      {
+        id: 4,
+        content: 'Invite 10 guests',
+      },
     ],
   },
 ];
